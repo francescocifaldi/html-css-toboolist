@@ -8,7 +8,7 @@ header{
     background-color: white;
 }
 
-h1{
+h1,p{
     display: inline;
 }
 
@@ -28,16 +28,14 @@ main{
 .content-header{
     background-color: white;
     margin-bottom: 1px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 10px;
     padding: 20px 20px;
 }
 
 .content-main{
     background-color: white;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 0 20px;
+    border-radius: 10px;
+    padding: 20px 20px;
 }
 
 .top-button{
@@ -59,4 +57,41 @@ main{
     background-color: white;
     border: 1px solid gray;
     color: gray;
+}
+
+.activity{
+    border-radius: 20px;
+    color: white;
+    display: inline;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: x-small;
+}
+
+.editorial{
+    background-color: dodgerblue;
+}
+
+.goals{
+    background-color: mediumpurple;
+}
+
+.recruiting{
+    background-color:lightseagreen;
+}
+
+.mobile{
+    background-color: lightsalmon;
+}
+
+.website{
+    background-color: lightpink;
+}
+
+.sales{
+    background-color:olive;
+}
+
+.category{
+    margin-bottom: 10px;
 }
