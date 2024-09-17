@@ -50,7 +50,8 @@ main{
 }
 
 #add-task{
-    background-color: aqua;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
     color: white;
 }
 
